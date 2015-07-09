@@ -115,7 +115,6 @@
         gesture.view.center = newCenter;
         
         [gesture setTranslation:CGPointZero inView:gesture.view];
-        NSLog(@"%@", NSStringFromCGPoint(translation));
     } else if (gesture.state == UIGestureRecognizerStateEnded) {
         NSLog(@"gesture ended");
         
