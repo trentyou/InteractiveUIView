@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		857671891B4E200800BA951B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 857671881B4E200800BA951B /* main.m */; };
+		8576718C1B4E200800BA951B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8576718B1B4E200800BA951B /* AppDelegate.m */; };
+		8576718F1B4E200800BA951B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8576718E1B4E200800BA951B /* ViewController.m */; };
+		857671921B4E200800BA951B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 857671901B4E200800BA951B /* Main.storyboard */; };
+		857671941B4E200800BA951B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 857671931B4E200800BA951B /* Images.xcassets */; };
+		857671971B4E200800BA951B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 857671951B4E200800BA951B /* LaunchScreen.xib */; };
+		857671A31B4E200800BA951B /* PanGestureRecognizerTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 857671A21B4E200800BA951B /* PanGestureRecognizerTestTests.m */; };
+		857671AE1B4E207200BA951B /* HMDPanGestureTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 857671AD1B4E207200BA951B /* HMDPanGestureTestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8576719D1B4E200800BA951B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8576717B1B4E200800BA951B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 857671821B4E200800BA951B;
+			remoteInfo = PanGestureRecognizerTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		857671831B4E200800BA951B /* PanGestureRecognizerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanGestureRecognizerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		857671871B4E200800BA951B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		857671881B4E200800BA951B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8576718A1B4E200800BA951B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8576718B1B4E200800BA951B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8576718D1B4E200800BA951B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8576718E1B4E200800BA951B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		857671911B4E200800BA951B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		857671931B4E200800BA951B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		857671961B4E200800BA951B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8576719C1B4E200800BA951B /* PanGestureRecognizerTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanGestureRecognizerTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		857671A11B4E200800BA951B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		857671A21B4E200800BA951B /* PanGestureRecognizerTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanGestureRecognizerTestTests.m; sourceTree = "<group>"; };
+		857671AC1B4E207200BA951B /* HMDPanGestureTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMDPanGestureTestViewController.h; sourceTree = "<group>"; };
+		857671AD1B4E207200BA951B /* HMDPanGestureTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMDPanGestureTestViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		857671801B4E200800BA951B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857671991B4E200800BA951B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8576717A1B4E200800BA951B = {
+			isa = PBXGroup;
+			children = (
+				857671851B4E200800BA951B /* PanGestureRecognizerTest */,
+				8576719F1B4E200800BA951B /* PanGestureRecognizerTestTests */,
+				857671841B4E200800BA951B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		857671841B4E200800BA951B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				857671831B4E200800BA951B /* PanGestureRecognizerTest.app */,
+				8576719C1B4E200800BA951B /* PanGestureRecognizerTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		857671851B4E200800BA951B /* PanGestureRecognizerTest */ = {
+			isa = PBXGroup;
+			children = (
+				8576718A1B4E200800BA951B /* AppDelegate.h */,
+				8576718B1B4E200800BA951B /* AppDelegate.m */,
+				8576718D1B4E200800BA951B /* ViewController.h */,
+				8576718E1B4E200800BA951B /* ViewController.m */,
+				857671AC1B4E207200BA951B /* HMDPanGestureTestViewController.h */,
+				857671AD1B4E207200BA951B /* HMDPanGestureTestViewController.m */,
+				857671901B4E200800BA951B /* Main.storyboard */,
+				857671931B4E200800BA951B /* Images.xcassets */,
+				857671951B4E200800BA951B /* LaunchScreen.xib */,
+				857671861B4E200800BA951B /* Supporting Files */,
+			);
+			path = PanGestureRecognizerTest;
+			sourceTree = "<group>";
+		};
+		857671861B4E200800BA951B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				857671871B4E200800BA951B /* Info.plist */,
+				857671881B4E200800BA951B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8576719F1B4E200800BA951B /* PanGestureRecognizerTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				857671A21B4E200800BA951B /* PanGestureRecognizerTestTests.m */,
+				857671A01B4E200800BA951B /* Supporting Files */,
+			);
+			path = PanGestureRecognizerTestTests;
+			sourceTree = "<group>";
+		};
+		857671A01B4E200800BA951B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				857671A11B4E200800BA951B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		857671821B4E200800BA951B /* PanGestureRecognizerTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 857671A61B4E200800BA951B /* Build configuration list for PBXNativeTarget "PanGestureRecognizerTest" */;
+			buildPhases = (
+				8576717F1B4E200800BA951B /* Sources */,
+				857671801B4E200800BA951B /* Frameworks */,
+				857671811B4E200800BA951B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PanGestureRecognizerTest;
+			productName = PanGestureRecognizerTest;
+			productReference = 857671831B4E200800BA951B /* PanGestureRecognizerTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8576719B1B4E200800BA951B /* PanGestureRecognizerTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 857671A91B4E200800BA951B /* Build configuration list for PBXNativeTarget "PanGestureRecognizerTestTests" */;
+			buildPhases = (
+				857671981B4E200800BA951B /* Sources */,
+				857671991B4E200800BA951B /* Frameworks */,
+				8576719A1B4E200800BA951B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8576719E1B4E200800BA951B /* PBXTargetDependency */,
+			);
+			name = PanGestureRecognizerTestTests;
+			productName = PanGestureRecognizerTestTests;
+			productReference = 8576719C1B4E200800BA951B /* PanGestureRecognizerTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8576717B1B4E200800BA951B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Trent You";
+				TargetAttributes = {
+					857671821B4E200800BA951B = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					8576719B1B4E200800BA951B = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 857671821B4E200800BA951B;
+					};
+				};
+			};
+			buildConfigurationList = 8576717E1B4E200800BA951B /* Build configuration list for PBXProject "PanGestureRecognizerTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8576717A1B4E200800BA951B;
+			productRefGroup = 857671841B4E200800BA951B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				857671821B4E200800BA951B /* PanGestureRecognizerTest */,
+				8576719B1B4E200800BA951B /* PanGestureRecognizerTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		857671811B4E200800BA951B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				857671921B4E200800BA951B /* Main.storyboard in Resources */,
+				857671971B4E200800BA951B /* LaunchScreen.xib in Resources */,
+				857671941B4E200800BA951B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8576719A1B4E200800BA951B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8576717F1B4E200800BA951B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8576718F1B4E200800BA951B /* ViewController.m in Sources */,
+				8576718C1B4E200800BA951B /* AppDelegate.m in Sources */,
+				857671AE1B4E207200BA951B /* HMDPanGestureTestViewController.m in Sources */,
+				857671891B4E200800BA951B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857671981B4E200800BA951B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				857671A31B4E200800BA951B /* PanGestureRecognizerTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8576719E1B4E200800BA951B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 857671821B4E200800BA951B /* PanGestureRecognizerTest */;
+			targetProxy = 8576719D1B4E200800BA951B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		857671901B4E200800BA951B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				857671911B4E200800BA951B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		857671951B4E200800BA951B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				857671961B4E200800BA951B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		857671A41B4E200800BA951B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		857671A51B4E200800BA951B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		857671A71B4E200800BA951B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PanGestureRecognizerTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		857671A81B4E200800BA951B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PanGestureRecognizerTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		857671AA1B4E200800BA951B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PanGestureRecognizerTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PanGestureRecognizerTest.app/PanGestureRecognizerTest";
+			};
+			name = Debug;
+		};
+		857671AB1B4E200800BA951B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PanGestureRecognizerTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PanGestureRecognizerTest.app/PanGestureRecognizerTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8576717E1B4E200800BA951B /* Build configuration list for PBXProject "PanGestureRecognizerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				857671A41B4E200800BA951B /* Debug */,
+				857671A51B4E200800BA951B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		857671A61B4E200800BA951B /* Build configuration list for PBXNativeTarget "PanGestureRecognizerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				857671A71B4E200800BA951B /* Debug */,
+				857671A81B4E200800BA951B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		857671A91B4E200800BA951B /* Build configuration list for PBXNativeTarget "PanGestureRecognizerTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				857671AA1B4E200800BA951B /* Debug */,
+				857671AB1B4E200800BA951B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8576717B1B4E200800BA951B /* Project object */;
+}
