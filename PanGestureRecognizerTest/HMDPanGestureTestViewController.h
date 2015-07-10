@@ -10,4 +10,13 @@
 
 @interface HMDPanGestureTestViewController : UIViewController
 
+// Animation and Pan Gesture translation settings
+
+@property (nonatomic) CGFloat xTranslationMultiplier;
+@property (nonatomic) CGFloat yTranslationMultiplier;
+
+@property (nonatomic) CGFloat animationDuration;
+@property (nonatomic) CGFloat springDampening;
+@property (nonatomic) CGFloat initialSpringVelocity;
+
 @end

@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		850429221B4F741B001E7CF1 /* HMDEdgeMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 850429201B4F741B001E7CF1 /* HMDEdgeMenuTableViewController.m */; };
+		850429231B4F741B001E7CF1 /* HMDEdgeMenuTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 850429211B4F741B001E7CF1 /* HMDEdgeMenuTableViewController.xib */; };
 		857671891B4E200800BA951B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 857671881B4E200800BA951B /* main.m */; };
 		8576718C1B4E200800BA951B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8576718B1B4E200800BA951B /* AppDelegate.m */; };
-		8576718F1B4E200800BA951B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8576718E1B4E200800BA951B /* ViewController.m */; };
 		857671921B4E200800BA951B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 857671901B4E200800BA951B /* Main.storyboard */; };
 		857671941B4E200800BA951B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 857671931B4E200800BA951B /* Images.xcassets */; };
 		857671971B4E200800BA951B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 857671951B4E200800BA951B /* LaunchScreen.xib */; };
 		857671A31B4E200800BA951B /* PanGestureRecognizerTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 857671A21B4E200800BA951B /* PanGestureRecognizerTestTests.m */; };
 		857671AE1B4E207200BA951B /* HMDPanGestureTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 857671AD1B4E207200BA951B /* HMDPanGestureTestViewController.m */; };
+		85DA23341B4FB2E2003699D5 /* UIColor+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DA23331B4FB2E2003699D5 /* UIColor+Extensions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,21 +30,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8504291F1B4F741B001E7CF1 /* HMDEdgeMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMDEdgeMenuTableViewController.h; sourceTree = "<group>"; };
+		850429201B4F741B001E7CF1 /* HMDEdgeMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMDEdgeMenuTableViewController.m; sourceTree = "<group>"; };
+		850429211B4F741B001E7CF1 /* HMDEdgeMenuTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMDEdgeMenuTableViewController.xib; sourceTree = "<group>"; };
 		857671831B4E200800BA951B /* PanGestureRecognizerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanGestureRecognizerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		857671871B4E200800BA951B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		857671881B4E200800BA951B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8576718A1B4E200800BA951B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8576718B1B4E200800BA951B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8576718D1B4E200800BA951B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8576718E1B4E200800BA951B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8576718A1B4E200800BA951B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		8576718B1B4E200800BA951B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		857671911B4E200800BA951B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		857671931B4E200800BA951B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		857671931B4E200800BA951B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
 		857671961B4E200800BA951B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8576719C1B4E200800BA951B /* PanGestureRecognizerTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanGestureRecognizerTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		857671A11B4E200800BA951B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		857671A21B4E200800BA951B /* PanGestureRecognizerTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanGestureRecognizerTestTests.m; sourceTree = "<group>"; };
 		857671AC1B4E207200BA951B /* HMDPanGestureTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMDPanGestureTestViewController.h; sourceTree = "<group>"; };
 		857671AD1B4E207200BA951B /* HMDPanGestureTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMDPanGestureTestViewController.m; sourceTree = "<group>"; };
+		85DA23321B4FB2E2003699D5 /* UIColor+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Extensions.h"; path = "../UIColor+Extensions.h"; sourceTree = "<group>"; };
+		85DA23331B4FB2E2003699D5 /* UIColor+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Extensions.m"; path = "../UIColor+Extensions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,15 +89,14 @@
 		857671851B4E200800BA951B /* PanGestureRecognizerTest */ = {
 			isa = PBXGroup;
 			children = (
-				8576718A1B4E200800BA951B /* AppDelegate.h */,
-				8576718B1B4E200800BA951B /* AppDelegate.m */,
-				8576718D1B4E200800BA951B /* ViewController.h */,
-				8576718E1B4E200800BA951B /* ViewController.m */,
+				85DA23361B4FB36B003699D5 /* App Delegate */,
 				857671AC1B4E207200BA951B /* HMDPanGestureTestViewController.h */,
 				857671AD1B4E207200BA951B /* HMDPanGestureTestViewController.m */,
-				857671901B4E200800BA951B /* Main.storyboard */,
-				857671931B4E200800BA951B /* Images.xcassets */,
-				857671951B4E200800BA951B /* LaunchScreen.xib */,
+				8504291F1B4F741B001E7CF1 /* HMDEdgeMenuTableViewController.h */,
+				850429201B4F741B001E7CF1 /* HMDEdgeMenuTableViewController.m */,
+				850429211B4F741B001E7CF1 /* HMDEdgeMenuTableViewController.xib */,
+				85DA23371B4FB37B003699D5 /* Resources */,
+				85DA23351B4FB357003699D5 /* Color Extensions */,
 				857671861B4E200800BA951B /* Supporting Files */,
 			);
 			path = PanGestureRecognizerTest;
@@ -122,6 +126,34 @@
 				857671A11B4E200800BA951B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85DA23351B4FB357003699D5 /* Color Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				85DA23321B4FB2E2003699D5 /* UIColor+Extensions.h */,
+				85DA23331B4FB2E2003699D5 /* UIColor+Extensions.m */,
+			);
+			path = "Color Extensions";
+			sourceTree = "<group>";
+		};
+		85DA23361B4FB36B003699D5 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				8576718A1B4E200800BA951B /* AppDelegate.h */,
+				8576718B1B4E200800BA951B /* AppDelegate.m */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		85DA23371B4FB37B003699D5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				857671901B4E200800BA951B /* Main.storyboard */,
+				857671931B4E200800BA951B /* Images.xcassets */,
+				857671951B4E200800BA951B /* LaunchScreen.xib */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				857671921B4E200800BA951B /* Main.storyboard in Resources */,
+				850429231B4F741B001E7CF1 /* HMDEdgeMenuTableViewController.xib in Resources */,
 				857671971B4E200800BA951B /* LaunchScreen.xib in Resources */,
 				857671941B4E200800BA951B /* Images.xcassets in Resources */,
 			);
@@ -224,10 +257,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8576718F1B4E200800BA951B /* ViewController.m in Sources */,
 				8576718C1B4E200800BA951B /* AppDelegate.m in Sources */,
+				850429221B4F741B001E7CF1 /* HMDEdgeMenuTableViewController.m in Sources */,
 				857671AE1B4E207200BA951B /* HMDPanGestureTestViewController.m in Sources */,
 				857671891B4E200800BA951B /* main.m in Sources */,
+				85DA23341B4FB2E2003699D5 /* UIColor+Extensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +290,7 @@
 				857671911B4E200800BA951B /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		857671951B4E200800BA951B /* LaunchScreen.xib */ = {
@@ -264,6 +299,7 @@
 				857671961B4E200800BA951B /* Base */,
 			);
 			name = LaunchScreen.xib;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -422,6 +458,7 @@
 				857671A81B4E200800BA951B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		857671A91B4E200800BA951B /* Build configuration list for PBXNativeTarget "PanGestureRecognizerTestTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +467,7 @@
 				857671AB1B4E200800BA951B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
